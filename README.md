@@ -1,4 +1,4 @@
-### pruebafinal.com
+## Tratamiento de datos - pruebafinal.com
 Proyecto final de Tratamiento de datos con Selenium - Autos usados Patiotuerca
 
 ### Descripción
@@ -159,6 +159,6 @@ Se presentan las evidencias del presente proyecto:
 ![img_6.png](img_6.png)
 
 #Conclusión
-Se extrae la información de manera correcta.
-Se almacena la información extraída en una base de datos.
-Se especifica todo el procedimiento en el archivo README.md
+1. Se extrae la información de manera correcta.
+2. Se almacena la información extraída en una base de datos.
+3. Se especifica todo el procedimiento en el archivo README.md
