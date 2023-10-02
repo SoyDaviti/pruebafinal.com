@@ -1,7 +1,7 @@
-# pruebafinal.com
+### pruebafinal.com
 Proyecto final de Tratamiento de datos con Selenium - Autos usados Patiotuerca
 
-#Descripción
+### Descripción
 Se define extraer datos de una fuente de datos online, en este caso se realiza
 la extracción de datos de una empresa de Ecuador que se dedica a la venta
 de automóviles de segunda mano, con la finalidad de realizar el tratamiento de datos,
@@ -12,7 +12,7 @@ Se escoge la página online de la empresa Ecuador - Patiotuercas
 
 https://ecuador.patiotuerca.com/usados/-/autos
 
-#PASO 1. Configuración de librería
+### PASO 1. Configuración de librería
 Crear un archivo `requirements.txt`
 
 Contenido de archivo `requirements.txt`:
@@ -26,7 +26,7 @@ Instalar las librerías:
 ```
 pip install -r requirements.txt
 ```
-#PASO 2. Creación Base de datos MongoDB 
+### PASO 2. Creación Base de datos MongoDB 
 Se genera una base de datos gratis en MongoDB, la misma que almacenará
 la información extraída.
 
@@ -40,7 +40,7 @@ Usuario: `soydaviti96`
 Contraseña: `Password.1234`
 
 
-#PASO 3. Configuración archivo .env
+### PASO 3. Configuración archivo .env
 Se genera el archivo `.env` donde se presenta la configuración de la base de datos.
 
 El archivo cuenta con el siguiente contenido:
@@ -50,7 +50,7 @@ MONGO_PASSWORD=Password.1234
 MONGO_HOST=cluster0.fhjhjzu.mongodb.net
 ```
 
-#PASO 5. Configuración archivo mongo.py
+### PASO 4. Configuración archivo mongo.py
 Se genera el archivo `mongo.py` el mismo que permite la conexión
 de la base de datos con el proyecto ejecutado pycharm, específicamente
 con el archivo `main.py`.
@@ -88,7 +88,7 @@ if __name__ == "__main__":
     MongoConnection().test_connection()
 ```
 
-#PASO 6. Configuración archivo main.py
+### PASO 6. Configuración archivo main.py
 Este es el archivo principal que extrae toda la información
 de la página de Patiotuercas. 
 
@@ -138,9 +138,25 @@ for a in autos:
 driver.close()
 ```
 
-#Evidencias
-Las evidencias del presente proyecto se encuentra en el siguiente URL:
+### Evidencias
+Se presentan las evidencias del presente proyecto:
 
+- Página Online Patiotuercas donde se extraerá la informacion:
+![img_1.png](img_1.png)
+
+- Evidencia de información extraída.
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+- Ejecución de la primera extracción de información:
+![img_4.png](img_4.png)
+
+- Se genera un correcto formato de la información extraída.
+![img_5.png](img_5.png)
+
+- Evidencia de información aislada en Base de datos:
+![img_6.png](img_6.png)
 
 #Conclusión
 Se extrae la información de manera correcta.
