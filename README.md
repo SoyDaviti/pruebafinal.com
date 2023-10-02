@@ -22,7 +22,7 @@ pymongo
 python-dotenv
 ```
 
-Instalar las librerías:
+Instalar las librerías ejecutando desde el terminal:
 ```
 pip install -r requirements.txt
 ```
