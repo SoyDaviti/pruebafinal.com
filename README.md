@@ -36,8 +36,8 @@ https://cloud.mongodb.com/
 Se recomienda generar una base de datos en la nube ubicada en Azure y que sea Free.
 
 Se define las credenciales de la BDD:
-Usuario: `soydaviti96`
-Contraseña: `Password.1234`
+Usuario: `User`
+Contraseña: `Password`
 
 
 ## PASO 3. Configuración archivo .env
@@ -45,9 +45,9 @@ Se genera el archivo `.env` donde se presenta la configuración de la base de da
 
 El archivo cuenta con el siguiente contenido:
 ```
-MONGO_USER=soydaviti96
-MONGO_PASSWORD=Password.1234
-MONGO_HOST=cluster0.fhjhjzu.mongodb.net
+MONGO_USER=User
+MONGO_PASSWORD=Password
+MONGO_HOST=cluster.base.mongodb.net
 ```
 
 ## PASO 4. Configuración archivo mongo.py
